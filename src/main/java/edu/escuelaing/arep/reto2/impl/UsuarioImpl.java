@@ -1,4 +1,4 @@
-package edu.escuelaing.arem.reto2.impl;
+package edu.escuelaing.arep.reto2.impl;
 
 import java.sql.Connection;
 import java.sql.DriverManager;
@@ -9,7 +9,7 @@ import java.util.ArrayList;
 import java.util.logging.Level;
 import java.util.logging.Logger;
 
-import edu.escuelaing.arem.reto2.Usuario;
+import edu.escuelaing.arep.reto2.Usuario;
 
 /**
  * Hello world!
@@ -38,7 +38,7 @@ public class UsuarioImpl {
 	}
 
 	public void insertUsuario(Usuario usr) {
-		String consulta = "INSERT INTO Usuarios (id, correo, nombre, apellido) VALUES (?,?,?,?)";
+		String consulta = "INSERT INTO \"Usuario\" (id, correo, nombre, apellido) VALUES (?,?,?,?)";
         try {
             PreparedStatement pS = connection.prepareStatement(consulta);
             pS.setInt(1,usr.getId());
@@ -52,7 +52,7 @@ public class UsuarioImpl {
 	}
 
 	public ArrayList<Usuario> getUsuarios() {
-		String consulta = "SELECT * FROM Usuarios";
+		String consulta = "SELECT * FROM \"Usuario\"";
         ArrayList<Usuario> usuarios = new ArrayList<>();
         try {
             PreparedStatement pS = connection.prepareStatement(consulta);

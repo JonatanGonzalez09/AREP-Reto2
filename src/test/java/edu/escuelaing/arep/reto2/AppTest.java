@@ -1,4 +1,4 @@
-package edu.escuelaing.arem.reto2;
+package edu.escuelaing.arep.reto2;
 
 import junit.framework.Test;
 import junit.framework.TestCase;
