@@ -15,6 +15,20 @@ Se debe tener conocimientos claros de la programación Orientada a objetos.
 En el siguiente vinculo encontrara el respectivo PDF de la descripción del diseño desarrollado en LaTeX.
 [Click](https://github.com/JonatanGonzalez09/AREP-Reto2/blob/master/resources/Laboratorio_3_Reto_2.pdf)
 
+## Documentación Javadoc ##
+Para generar la documentacion javadoc, fue necesario ejecutar los siguientes comandos:
+
+```
+- mvn javadoc:javadoc
+- mvn javadoc:jar
+- mvn javadoc:aggregate
+- mvn javadoc:aggregate-jar
+- mvn javadoc:test-javadoc
+- mvn javadoc:test-jar
+- mvn javadoc:test-aggregate
+- mvn javadoc:test-aggregate-jar
+```
+La ruta donde encontrara la documentacion es la siguiente: **target\apidocs\edu\escuelaing\arep\reto2**
 
 ## Reto 2 ##
 Creamos una base de datos en **_Heroku_** con el motor **_PostgreSQL_** y le insertamos los siguientes valores:
