@@ -13,19 +13,19 @@ Se debe tener conocimientos claros de la programación Orientada a objetos.
 
 ## Descripción en Latex ##
 En el siguiente vinculo encontrara el respectivo PDF de la descripción del diseño desarrollado en LaTeX.
-[Click](RUTA)
+[Click](https://github.com/JonatanGonzalez09/AREP-Reto2/blob/master/resources/Laboratorio_3_Reto_2.pdf)
 
 
 ## Reto 2 ##
 Creamos una base de datos en **_Heroku_** con el motor **_PostgreSQL_** y le insertamos los siguientes valores:
 
-![](IMAGEN)
+![](https://github.com/JonatanGonzalez09/AREP-Reto2/blob/master/resources/dataBase.jpg)
 
 El despliegue se puede visualizar en el siguiente link:**https://arep-reto2.herokuapp.com/dataUser.html**
 En el cual observamos los valores que existen en la base de datos
 
 ## Licencia ##
-Este proyecto cuenta con la licencia [**GNU General Public License v3.0**](RUTA)
+Este proyecto cuenta con la licencia [**GNU General Public License v3.0**](https://github.com/JonatanGonzalez09/AREP-Reto2/blob/master/LICENSE)
 
 ## Autor ##
 Jonatan Esteban Gonzalez Rodriguez 
